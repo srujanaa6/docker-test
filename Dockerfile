@@ -11,4 +11,3 @@ ENV PYTHONPATH "${PYTHONPATH}:/app"
 
 # Start the application or run tests (you can modify this as needed)
 CMD ["python", "app/main.py"]
-CMD ["pytest", "tests"]
