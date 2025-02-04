@@ -28,7 +28,7 @@ pipeline {
             steps {
                 script {
                     sh 'docker build -t flask-test-app:latest .'
-                    echo "docker built"
+                    echo "docker built.."
                 }
             }
         }
